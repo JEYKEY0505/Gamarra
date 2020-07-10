@@ -1,0 +1,219 @@
+﻿body{
+	background-color: #F0E7E5;
+	margin: 0;
+}
+
+
+h1{
+	margin: 0;
+}
+header{
+	background-color: black;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 70px;
+	flex: 1;
+}
+.nav{
+   display: flex;
+   padding: 12px 10px;
+
+}
+.inicio{
+height: inherit;
+width: 100%;
+padding: inherit;
+}
+
+.inicio a{
+	height: inherit;
+	color: white;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	padding:inherit;
+}
+
+
+.cuadro{
+	margin: 0px 8px 8px 0px;
+	width: 100%;
+}
+
+
+.Segundo{
+	color: white;
+	text-decoration: none;
+	font-family: 'Yellowtail', cursive;
+	font-size: 40px;
+	margin-left: 20px;
+	
+}
+.ropa:hover {
+	background-color: lightgray;
+	color: black;
+}
+.portada{
+	height: 300px;
+	background-color: black;
+	color: white;
+ padding-left: 20px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-wrap: wrap;
+ flex: 1;
+}
+
+
+.A1{
+	width: 550px;
+	height: 400px;
+	display: block;
+	margin: 5px;
+	vertical-align: text-top;
+	padding-top: 10px;
+	padding-left: 10px;
+
+}
+.A1 h3{
+	font-size: 30px;
+	margin: 10px 0px;
+}
+.A1 h5{
+	margin: 10px 0px;
+}
+.A1 p{
+	font-size: 18px;
+}
+.Contacto{
+	margin: 0;
+	background-color: black;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	line-height: 10px;
+}
+.Contacto div{
+	display: flex;
+	justify-content: space-between;
+}
+.llamar{
+	flex-direction: column;
+	margin-left: 20px;
+	
+}
+.llamar p{
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
+.social{
+    margin-left: 50px;
+    height: 50px;
+    align-self: center;
+}
+.social-link{
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	background-size: 50px 50px;
+	border: 2px solid white;
+	border-radius: 10px;
+	margin-right: 10px;
+	
+}
+#twitter{
+	background-image: url(twitter.JPG);
+}
+#facebook{
+	background-image: url(facebook.PNG);
+}
+#go{
+	background-image: url(favi2.PNG)
+}
+.intro{
+	font-family: 'Oswald', sans-serif;
+	font-size: 40px;
+	line-height: 50px;
+	letter-spacing: -0.2px;
+
+
+}
+.rayo{
+	color: #FFCC00;
+}
+.borde{
+	border: 2px solid #FF0099;
+	border-radius: 10px;
+	margin: 10px;
+	background: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+    }
+
+#Portafolio h2{
+	margin-left: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 24px;
+	margin-bottom: 40px;
+	margin-top: 30px;
+
+}
+.bajo{
+	font-size: 15px;
+	color: lightgray;
+	margin-bottom: 0px;
+	margin-left: 20px;
+}
+@media screen and (max-width: 1024px){
+	body{
+		
+	}
+}
+
+
+@media screen and (max-width: 765px){
+	header{
+		
+		height: 80px;
+		width: 100%;
+	}
+
+	.nav{
+		padding: auto 0px;
+		width: 40%;
+		justify-content: center;
+	}
+	.ropa{
+		font-size: 15px;
+	}
+	
+
+}
+
+@media screen and (max-width: 480px){
+	header{
+		width: 100%;
+	}
+	.Contacto{
+		font-size: 15px;
+	}
+	.social-link{
+	width: 40px;
+	height: 40px;
+	background-size: 40px 40px;
+	}
+}
+
+@media screen and (max-width: 380px){
+	body{
+	
+	}
+}
