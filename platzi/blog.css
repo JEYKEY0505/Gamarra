@@ -68,14 +68,22 @@ padding: inherit;
 
 
 .A1{
-	width: 550px;
+	width: 50%;
 	height: 400px;
 	display: block;
 	margin: 5px;
 	vertical-align: text-top;
-	padding-top: 10px;
-	padding-left: 10px;
+	padding: 10px;
 
+}
+.A1-image{
+	width: 50%;
+	text-align: center;
+	
+}
+.A1-image img{
+	max-width: 100%;
+	
 }
 .A1 h3{
 	font-size: 30px;
@@ -86,6 +94,7 @@ padding: inherit;
 }
 .A1 p{
 	font-size: 18px;
+	text-align: justify;
 }
 .Contacto{
 	margin: 0;
@@ -154,7 +163,7 @@ padding: inherit;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
     }
 
 #Portafolio h2{
@@ -194,6 +203,21 @@ padding: inherit;
 	.ropa{
 		font-size: 15px;
 	}
+	.borde{
+		display: block;
+	}
+	.A1{
+		width: 100%;
+		padding-right: 10px;
+		margin-right: 10px;
+	}
+	.A1-image{
+		width: 100%;
+	}
+	.A1 p{
+	width: 93%;
+	text-align: justify;
+}
 	
 
 }
@@ -204,16 +228,21 @@ padding: inherit;
 	}
 	.Contacto{
 		font-size: 15px;
+		line-height: 6px;
+	}
+	.llamar p{
+		line-height: 20px;
 	}
 	.social-link{
 	width: 40px;
 	height: 40px;
 	background-size: 40px 40px;
 	}
+	.A1 h3, .A1 h5, .A1 p {
+		margin: .6em 0px;
+	}
 }
 
 @media screen and (max-width: 380px){
-	body{
 	
-	}
 }

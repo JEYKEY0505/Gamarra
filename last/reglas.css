@@ -36,16 +36,16 @@ padding: inherit;
 
 
 .tipos{
-	width: 1310px;
+	width: 100%;
 	margin: 0 auto;
     background-color: black;
+    display: flex;
+    justify-content: space-around;
 	
 }
 
 
 .Segundo{
-	padding-right: 300px;
-	
 	color: white;
 	text-decoration: none;
 	font-family: 'Yellowtail', cursive;
@@ -53,7 +53,7 @@ padding: inherit;
 	margin-left: 10px;
 }
 .portada img{
-	width: 1350px;
+	width: 100%;
 	margin: 0;
 }
 
@@ -61,13 +61,14 @@ padding: inherit;
 .NA{
 	color: white;
 	background: black;
-	display: inline-block;
 	padding: 0;
 	margin: 0;
+	width: 100%;
+	text-align: center;
 }
 .NA a{
-display: block;
-	padding: 10px 60px 10px 60px;
+    display: block;
+	padding: 20px 10px 20px 10px;
 	text-decoration: none;
 	color: white;
 
@@ -95,11 +96,11 @@ h2{
 	width: 240px;
 }
 .caja1{
-	width: 1350px;
+	width: 100%;
 	text-align: center;
+	display: flex;
 }
 .caja2{
-	display: inline-block;
 	margin: 5px;
 	padding-top: 0;
 	left: 20px;
@@ -204,4 +205,74 @@ section{
 	color: lightgray;
 	margin-bottom: 0px;
 	margin-left: 20px;
+}
+
+@media screen and (max-width: 1024px){
+	body{
+		
+	}
+}
+
+
+@media screen and (max-width: 765px){
+	header{
+		
+		height: 80px;
+		width: 100%;
+	}
+    .caja1{
+    	flex-direction: column;
+
+    } 
+    .caja2 a{
+    	display: flex;
+    }
+    .precio{
+    	width: 22em;
+    	padding: 50px 5px;
+
+    }
+	.nav{
+		padding: auto 0px;
+		width: 40%;
+		justify-content: center;
+	}
+	section{
+		height: 100%;
+	}
+	.ropa{
+		font-size: 15px;
+	}
+	
+	.viejo{
+		opacity: 1;
+	}
+	.descripcion{
+		opacity: 1;
+	}
+	
+
+}
+
+@media screen and (max-width: 480px){
+	header{
+		width: 100%;
+	}
+	.Contacto{
+		font-size: 15px;
+		line-height: 6px;
+	}
+	.llamar p{
+		line-height: 20px;
+	}
+	.social-link{
+	width: 40px;
+	height: 40px;
+	background-size: 40px 40px;
+	}
+	
+}
+
+@media screen and (max-width: 380px){
+	
 }
