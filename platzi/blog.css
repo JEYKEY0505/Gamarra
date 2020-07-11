@@ -55,21 +55,20 @@ padding: inherit;
 	color: black;
 }
 .portada{
-	height: 300px;
+	height: 100%;
 	background-color: black;
 	color: white;
  padding-left: 20px;
  display: flex;
  justify-content: space-between;
  align-items: center;
- flex-wrap: wrap;
+ 
  flex: 1;
 }
 
 
 .A1{
 	width: 50%;
-	height: 400px;
 	display: block;
 	margin: 5px;
 	vertical-align: text-top;
@@ -149,8 +148,10 @@ padding: inherit;
 	font-size: 40px;
 	line-height: 50px;
 	letter-spacing: -0.2px;
-
-
+}
+.por img{
+	width: 500px; 
+	height: 296px;
 }
 .rayo{
 	color: #FFCC00;
@@ -182,9 +183,14 @@ padding: inherit;
 	margin-left: 20px;
 }
 @media screen and (max-width: 1024px){
-	body{
-		
+	
+	.intro{
+		font-size: 36px;
 	}
+	.por img{
+	max-width: 500px; 
+	max-height: 300px;
+}
 }
 
 
@@ -194,7 +200,11 @@ padding: inherit;
 		height: 80px;
 		width: 100%;
 	}
-
+    .intro{
+    	width: 100%;
+    	text-align: center;
+    	
+    }
 	.nav{
 		padding: auto 0px;
 		width: 40%;
@@ -203,6 +213,20 @@ padding: inherit;
 	.ropa{
 		font-size: 15px;
 	}
+	.portada{
+		flex-wrap: wrap;
+		padding-left: 0px;
+	}
+	.por{
+		width: 100%;
+		text-align: center;
+		
+	}
+ .por img{
+	width: 70%; 
+	height: 220px;
+	
+}
 	.borde{
 		display: block;
 	}
@@ -218,7 +242,13 @@ padding: inherit;
 	width: 93%;
 	text-align: justify;
 }
-	
+	footer{
+		padding-left: 10px;
+		padding-right: 20px;
+	}
+	.llamar p{
+		line-height: 20px;
+	}
 
 }
 
@@ -239,10 +269,13 @@ padding: inherit;
 	background-size: 40px 40px;
 	}
 	.A1 h3, .A1 h5, .A1 p {
-		margin: .6em 0px;
+		margin: .5em 0px;
 	}
+
 }
 
 @media screen and (max-width: 380px){
-	
+	.intro{
+		font-size: 25px;
+	}
 }
