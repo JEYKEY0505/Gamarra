@@ -1,11 +1,11 @@
 ﻿
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?1d5rin');
-  src:  url('../fonts/icomoon.eot?1d5rin#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?1d5rin') format('truetype'),
-    url('../fonts/icomoon.woff?1d5rin') format('woff'),
-    url('../fonts/icomoon.svg?1d5rin#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?1d5rin');
+  src:  url('fonts/icomoon.eot?1d5rin#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?1d5rin') format('truetype'),
+    url('fonts/icomoon.woff?1d5rin') format('woff'),
+    url('fonts/icomoon.svg?1d5rin#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -69,7 +69,7 @@ header{
 }
 .inicio{
 height: inherit;
-width: 100%;
+
 padding: inherit;
 }
 
@@ -94,7 +94,7 @@ padding: inherit;
 	text-decoration: none;
 	font-family: 'Yellowtail', cursive;
 	font-size: 40px;
-	margin-left: 20px;
+	margin-left: 15px;
 	
 }
 .ropa:hover {
@@ -182,13 +182,13 @@ padding: inherit;
 	
 }
 #twitter{
-	background-image: url(twitter.JPG);
+	background-image: url(https://i.imgur.com/59NOIzT.jpg);
 }
 #facebook{
-	background-image: url(facebook.PNG);
+	background-image: url(https://i.imgur.com/fs98Xn3.png);
 }
 #go{
-	background-image: url(favi2.PNG)
+	background-image: url(https://i.imgur.com/HwqBcwX.png)
 }
 .intro{
 	font-family: 'Oswald', sans-serif;
@@ -317,10 +317,30 @@ padding: inherit;
 		opacity: 1;
 	}
 	.nav{
-		display: none;
+		background-color: #fF0099;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		z-index: 12;
+		position: fixed;
+		opacity: 0.8;
+		top: 0;
+		width: 100vw;
+		right: 0;
+		bottom: 0;
+		left: 100vw;
+		transition-duration: 0.4s;
+	}
+	.nav.is-active{
+		left: 0;
+	}
+	.inicio a{
+		font-size: 20px;
 	}
 	header{
 		width: 100%;
+		flex-direction: column;
+		align-items: flex-start;
 	}
 	.Contacto{
 		font-size: 15px;
